@@ -5,8 +5,8 @@
 	<channel>
 		<title>{{ site.name | xml_escape }} - Miscellaneous</title>
 		<description>Posts categorized as 'Misc. Economics'</description>
-		<link>{{lucaspuente.github.io}}</link>
-		<atom:link href="{{lucaspuente.github.io}}/notes/feed.misc.xml" rel="self" type="application/rss+xml" />
+		<link>{{http://lucaspuente.github.io}}</link>
+		<atom:link href="{{http://lucaspuente.github.io}}/notes/feed.misc.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.categories.Misc. Economics limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
