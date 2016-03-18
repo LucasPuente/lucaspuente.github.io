@@ -1,2 +1,4 @@
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /notes/:year/:month/:day/:title
+name: Lucas Puente's Blog
+url: lucaspuente.github.io
