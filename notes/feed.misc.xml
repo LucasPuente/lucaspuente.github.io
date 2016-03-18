@@ -6,7 +6,7 @@
 		<title>{{ site.name | xml_escape }} - Miscellaneous</title>
 		<description>Posts categorized as 'Misc. Economics'</description>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.misc.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url }}/notes/feed.misc.xml" rel="self" type="application/rss+xml" />
 		{% for post in site.categories.Misc. Economics limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
