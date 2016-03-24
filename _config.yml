@@ -1,4 +1,4 @@
-markdown: kramdown
+markdown: pandoc
 permalink: /notes/:year/:month/:day/:title
 name: Lucas Puente's Blog
 url: http://lucaspuente.github.io
