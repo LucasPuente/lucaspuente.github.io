@@ -65,6 +65,7 @@ map<-ggplot() +
         axis.title = element_blank(),
         plot.title = element_text(size=40, face="bold", family="Avenir Next"))
 ```
+
 ### Step 3: View the Finished Product
 
 With this relatively simple code, we produce a map that clearly displays the location of 2015's traffic fatalities: <img src="https://raw.githubusercontent.com/LucasPuente/lucaspuente.github.io/master/img/Traffic%20Fatalities%20in%202015.png" width="550px" height="500px" />
