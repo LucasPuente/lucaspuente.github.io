@@ -1,3 +1,18 @@
+---
+layout: post
+title: "Mapping Traffic Fatalities"
+author: "Lucas Puente"
+date: "September 1, 2016"
+type: post
+published: true
+status: publish
+output:
+  md_document:
+    variant: markdown_github
+tags:
+- rstats
+---
+
 On Monday, August 29, DJ Patil, the Chief Data Scientist in the White House Office of Science and Technology Policy, and Mark Rosekind, the Administrator of the National Highway Traffic Safety Administration (NHTSA), [announced](https://www.whitehouse.gov/blog/2016/08/29/2015-traffic-fatalities-data-has-just-been-released-call-action-download-and-analyze) the release of a data set documenting all traffic fatalities occurring in the United States in 2015. As part of their release, they issued a "call to action" for data scientists and analysts to "jump in and analyze it." This post does exactly that by plotting these fatalities and providing the code for others to reproduce and extend the analysis.
 
 ### Step 1: Download and Clean the Data
