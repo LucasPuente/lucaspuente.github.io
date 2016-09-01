@@ -6,9 +6,6 @@ date: "September 1, 2016"
 type: post
 published: true
 status: publish
-output:
-  md_document:
-    variant: markdown_github
 tags:
 - rstats
 ---
